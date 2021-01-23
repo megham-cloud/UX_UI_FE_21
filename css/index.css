@@ -1,0 +1,48 @@
+/* Main navigation bar */
+.navbar {
+    display: flex;
+    width: 100%;
+    z-index: 2;
+    border-bottom: 1px solid black;
+    position: fixed;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+.wrapper {
+    margin-left: 15%;
+}
+
+#sidebar {
+    padding-top: 80px;
+    width: 170px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #343A40;
+    color: white;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sidebar h3 {
+    margin-bottom: 20px;
+}
+
+#sidebar li {
+    margin: 20px 0;
+}
+
+/*Getting Started Page*/
+#gettingStarted {
+    height: 400px;
+    background-image: url("/UX_UI_FE_21/images/GS_HS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
