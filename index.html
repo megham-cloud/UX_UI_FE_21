@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N2RT15GYRR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-N2RT15GYRR');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Megha's Hobby Shop</title>
@@ -62,7 +71,7 @@
 
     <h1>Getting Started</h1>
     <p>Brief introduction text about puzzles, our selection of puzzles, and the difficulty rating of our puzzles.</p>
-    <ul class="list-unstyled components">
+    <ul id="difficultyLevels">
       <li>
         <p>Beginner friendly (less than 99 pieces)</p>
       </li>
@@ -73,6 +82,7 @@
         <p>Difficult (greater than 500 pieces)</p>
       </li>
     </ul>
+
 
     <div class="container-fluid beginnerPuzzles">
       <h2>Beginner Puzzles</h2>
