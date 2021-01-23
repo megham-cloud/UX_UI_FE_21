@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+* {
+    font-family:'Open Sans', sans-serif;
+}
+
 /* Main navigation bar */
 .navbar {
     display: flex;
     width: 100%;
     z-index: 2;
-    border-bottom: 1px solid black;
     position: fixed;
+    background-color: #4B4237;
 }
 
 #navbarNav {
@@ -23,12 +29,13 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #343A40;
+    background-color: #574e43;
     color: white;
     padding-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 #sidebar h3 {
@@ -39,9 +46,20 @@
     margin: 20px 0;
 }
 
+#sidebar a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-outline-success {
+    background-color: #D5A021;
+    color: white;
+    border: 1px solid white;
+}
+
 /*Getting Started Page*/
 .jumbotron {
-    height: 400px;
+    height: 500px;
     /* background-image: url("/UX_UI_FE_21/images/GS_HS.jpg");
     background-repeat: no-repeat;
     background-size: cover; */
@@ -57,6 +75,13 @@
 
 h2 {
     margin-bottom: 25px;
+    color: #736B60;
+}
+
+.btn {
+    background-color: #D5A021;
+    color: white;
+    border: 1px solid white;
 }
 
 .beginner, .intermediate, .difficult {
@@ -71,6 +96,10 @@ h2 {
 
 h1, h3, h5 {
     margin-bottom: 25px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
 }
 
 p {
@@ -95,5 +124,6 @@ p {
 .centre {
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
