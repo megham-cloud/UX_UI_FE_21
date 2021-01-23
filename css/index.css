@@ -51,6 +51,14 @@
     color: white;
 }
 
+#sidebar a:hover {
+    color: #D5A021;
+}
+
+#sidebar a:focus {
+    color: #816011;
+}
+
 .btn-outline-success {
     background-color: #D5A021;
     color: white;
@@ -60,9 +68,9 @@
 /*Getting Started Page*/
 .jumbotron {
     height: 500px;
-    /* background-image: url("/UX_UI_FE_21/images/GS_HS.jpg");
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover; 
 }
 
 #difficultyLevels {
@@ -79,7 +87,7 @@ h2 {
 }
 
 .btn {
-    background-color: #D5A021;
+        background-color: #D5A021;
     color: white;
     border: 1px solid white;
 }
