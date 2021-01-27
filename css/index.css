@@ -68,6 +68,7 @@
 /*Getting Started Page*/
 .jumbotron {
     height: 500px;
+    background-image: url("/UX_UI_FE_21/images/GETTINGSTARTED_HS.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
