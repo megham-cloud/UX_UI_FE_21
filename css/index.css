@@ -66,12 +66,17 @@
 }
 
 /*Getting Started Page*/
-.jumbotron {
+
+.gettingStarted {
     height: 500px;
+    width: 100%;
+    background-image: url("/UX_UI_FE_21/images/GETTINGSTARTED_HS.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
 }
+
+
 
 #difficultyLevels {
     margin-bottom: 50px;
@@ -98,6 +103,15 @@ h2 {
 }
 
 /* Tips and Tricks Page */
+.t_t {
+    height: 500px;
+    width: 100%;
+    background-image: url("/UX_UI_FE_21/images/GETTINGSTARTED_HS.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 .intro {
     margin-bottom: 50px;
 }
@@ -118,6 +132,11 @@ p {
     margin-bottom: 60px;
 }
 
+.ex {
+    width: 50%;
+    height: 50%;
+}
+
 .examples {
     display: flex;
     flex-direction: column;
@@ -125,6 +144,15 @@ p {
 }
 
 /* Related Hobbies Page */
+.related {
+    height: 500px;
+    width: 100%;
+    background-image: url("/UX_UI_FE_21/images/GETTINGSTARTED_HS.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 .leggo, .boardGames {
     margin-top: 50px;
 }
